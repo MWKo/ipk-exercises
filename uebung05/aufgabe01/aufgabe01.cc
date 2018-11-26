@@ -56,7 +56,7 @@ void reverseInVec(std::vector<double>& v)
 	}
 }
 
-int main_a(int argc, char** argv)
+void testA()
 {
 	std::vector<double> v1;
 	std::vector<double> v2(10);
@@ -73,11 +73,9 @@ int main_a(int argc, char** argv)
 	std::cout << "V3:" << std::endl;
 	printValues(v3);
 	std::cout << std::endl;
-	
-	return 0;
 }
 
-int main_b(int argc, char** argv)
+void testB()
 {
 	std::vector<double> v1;
 	std::vector<double> v2(10);
@@ -107,7 +105,7 @@ int main_b(int argc, char** argv)
 	return 0;
 }
 
-int main_c(int argc, char** argv)
+void testC()
 {
 	std::vector<double> v1;
 	std::vector<double> v2(10);
@@ -129,11 +127,9 @@ int main_c(int argc, char** argv)
 	std::cout << "V4:" << std::endl;
 	printValues(reversed(v4));
 	std::cout << std::endl;
-	
-	return 0;
 }
 
-int main_d(int argc, char** argv)
+void testD()
 {
 	std::vector<double> v1;
 	std::vector<double> v2 = {{ 4.7, 8.2, 4.8, 2.7, 1.4 }};
@@ -159,11 +155,9 @@ int main_d(int argc, char** argv)
 	roundInVec(v4);
 	printValues(v4);
 	std::cout << std::endl;
-	
-	return 0;
 }
 
-int main_e(int argc, char** argv)
+void testE()
 {
 	std::vector<double> v1;
 	std::vector<double> v2 = {{ 4.7, 8.2, 4.8, 2.7, 1.4 }};
@@ -189,13 +183,12 @@ int main_e(int argc, char** argv)
 	reverseInVec(v4);
 	printValues(v4);
 	std::cout << std::endl;
-	
-	return 0;
 }
 
 
 int main(int argc, char** argv)
 {
-	return main_e(argc, argv);
+	testE();
+	return 0;
 }
 
