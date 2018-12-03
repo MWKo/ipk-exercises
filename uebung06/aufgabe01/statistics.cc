@@ -28,7 +28,6 @@ double moment(const std::vector<double>& v, int k)
 	}
 	return m / v.size();
 }
-
 double standard_deviation(const std::vector<double>& v)
 {
 	double meanV = mean(v);
@@ -45,5 +44,5 @@ bool test_standard_deviation(const std::vector<double>& v)
 {
 	double sd = standard_deviation(v);
 	double meanV = mean(v);
-	return sd * sd == moment(v, 2) - meanV * meanV;
+	return abs(sd * sd - (moment(v, 2) - meanV * meanV)) <= 0.0001;
 }

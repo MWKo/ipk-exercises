@@ -61,6 +61,6 @@ void print_frequencies(const std::unordered_map<std::string, int>& frequencies)
 
 int main()
 {
-	print_frequencies(get_frequencies_um());
+	print_frequencies(get_frequencies());
 	return 0;
 }
