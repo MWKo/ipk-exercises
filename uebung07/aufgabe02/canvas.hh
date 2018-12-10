@@ -2,6 +2,7 @@
 #define CANVAS_HH
 
 #include <vector>
+#include <cmath>
 
 #include "point.hh"
 #include "pgm.hh"

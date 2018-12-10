@@ -1,0 +1,18 @@
+Start testing: Dec 10 12:36 CET
+----------------------------------------------------------
+1/1 Testing: TestCorners
+1/1 Test: TestCorners
+Command: "/export/home/ipk18/ipk18029/uebungen/ipk-exercises/uebung07/aufgabe02/testcorners"
+Directory: /export/home/ipk18/ipk18029/uebungen/ipk-exercises/uebung07/aufgabe02
+"TestCorners" start time: Dec 10 12:36 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TestCorners" end time: Dec 10 12:36 CET
+"TestCorners" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 10 12:36 CET

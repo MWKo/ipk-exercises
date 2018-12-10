@@ -1,5 +1,3 @@
-#if 0
-
 #include "canvas.hh"
 #include <iostream>
 
@@ -27,5 +25,3 @@ int main()
 
 	return 0;
 }
-
-#endif
