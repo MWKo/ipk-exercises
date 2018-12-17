@@ -23,7 +23,7 @@ template <typename Ty>
 typename Ty::value_type median(const Ty& v)
 {
   std::vector<typename Ty::value_type> v2;
-  for (auto e : v) {
+  for (const auto& e : v) {
     v2.push_back(e);
   }
   std::sort(v2.begin(),v2.end());
