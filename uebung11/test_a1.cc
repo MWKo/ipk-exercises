@@ -1,6 +1,6 @@
-/*
 #include <string>
 #include <iostream>
+#include <map>
 
 #include "frequencysource.hh"
 #include "letterfrequencies.hh"
@@ -14,4 +14,4 @@ int main()
 
 	return 0;
 
-}*/
+}
